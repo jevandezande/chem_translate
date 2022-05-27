@@ -20,10 +20,9 @@ def get_num(string: str, decimal: bool = False) -> str:
     ''
     """
     i = 0
-    for char in string:
+    for i, char in enumerate(string):
         if not char.isnumeric():
-            if not decimal:
+            if char != "." or decimal:
                 break
             decimal = False
-        i += 1
     return string[:i]

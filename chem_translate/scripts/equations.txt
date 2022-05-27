@@ -1,1 +1,4 @@
 NH3 + H2O -> NH4+ + OH-
+NH4+ + OH- -> NH3 + H2O
+H2O2 <> H2 + O2
+H2SO3 <> HSO4- + H+
